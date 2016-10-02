@@ -13,9 +13,9 @@
     tools:context="com.memories.maxvi.geoquiz.MainActivity">
 
     <TextView
+        android:id="@+id/question_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/question_text"
         android:padding="24dp"
         />
 
@@ -26,12 +26,14 @@
         >
 
         <Button
+            android:id="@+id/btn_true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn_true"
             />
 
         <Button
+            android:id="@+id/btn_false"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn_false"
@@ -39,5 +41,11 @@
 
 
     </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_next"/>
 
 </LinearLayout>
