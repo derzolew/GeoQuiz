@@ -1,9 +1,15 @@
 <resources>
     <string name="app_name">GeoQuiz</string>
-    <string name="question_text">London is a capital of Great Britain</string>
     <string name="btn_true">True</string>
     <string name="btn_false">False</string>
     <string name="correct_toast">Correct!</string>
     <string name="incorrect_toast">Incorrect!</string>
     <string name="btn_next">Next</string>
+    <string name="question_london">London is a capital of Great Britain</string>
+    <string name="question_minsk">Minsk is a capital of Belarus</string>
+    <string name="question_baikal">Baikal is a biggest lake</string>
+    <string name="question_amazon">Amazon river is a largest river</string>
+    <string name="question_batya">Lukashenko is a president of Belarus</string>
+    <string name="question_obama">Obama loves Putin</string>
+    <string name="question_ocean">There are 3 oceans in the world</string>
 </resources>
